@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "csda": "https://apievangelist.com/topics/cloud-storage-and-data-acquisition/ns/",
+    "schema": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "dcterms": "http://purl.org/dc/terms/",
+
+    "DataSource": {
+      "@id": "csda:DataSource",
+      "@context": {
+        "id": "csda:id",
+        "name": "schema:name",
+        "type": "csda:source_type",
+        "owner": "schema:provider",
+        "url": {
+          "@id": "schema:url",
+          "@type": "@id"
+        }
+      }
+    },
+
+    "IngestionJob": {
+      "@id": "csda:IngestionJob",
+      "@context": {
+        "id": "csda:id",
+        "source": "csda:source",
+        "destination": "csda:destination",
+        "schedule": "schema:schedule",
+        "status": "csda:status",
+        "createdAt": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "StorageBucket": {
+      "@id": "csda:StorageBucket",
+      "@context": {
+        "name": "schema:name",
+        "provider": "schema:provider",
+        "region": "csda:region",
+        "createdAt": {
+          "@id": "dcterms:created",
+          "@type": "xsd:dateTime"
+        }
+      }
+    },
+
+    "Dataset": {
+      "@id": "csda:Dataset",
+      "@context": {
+        "id": "csda:id",
+        "name": "schema:name",
+        "description": "schema:description",
+        "format": "schema:encodingFormat",
+        "size": "schema:contentSize",
+        "license": "schema:license"
+      }
+    },
+
+    "TransferTask": {
+      "@id": "csda:TransferTask",
+      "@context": {
+        "id": "csda:id",
+        "source": "csda:source",
+        "destination": "csda:destination",
+        "bytesTransferred": "csda:bytes_transferred",
+        "status": "csda:status"
+      }
+    }
+  }
+}
