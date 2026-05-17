@@ -17,7 +17,7 @@ url: https://raw.githubusercontent.com/api-evangelist/cloud-storage-and-data-acq
 created: '2024-01-01'
 modified: '2026-04-23'
 specificationVersion: '0.19'
-x-type: topic
+kind: topic
 tags:
   - Bulk Transfer
   - Change Data Capture
@@ -156,7 +156,7 @@ common:
     url: https://network.apievangelist.com/
   - type: GitHub
     url: https://github.com/api-evangelist
-  - type: JSON-LD
+  - type: JSONLD
     url: json-ld/cloud-storage-and-data-acquisition-context.jsonld
   - type: Spectral
     url: rules/cloud-storage-and-data-acquisition-rules.yml
