@@ -12,7 +12,7 @@ description: >-
   storage from on-premises systems, SaaS APIs, IoT devices, public
   data sources, and partner exchanges.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/cloud-storage-and-data-acquisition/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-04-23'
@@ -35,7 +35,7 @@ apis:
     tags:
       - Object Storage
       - REST
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/s3/
     properties:
       - url: https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html
@@ -55,7 +55,7 @@ apis:
       - Pub/Sub
       - Real-time
       - Streaming
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/kinesis/data-streams/
     properties:
       - url: https://docs.aws.amazon.com/kinesis/latest/APIReference/
@@ -75,7 +75,7 @@ apis:
       - Data Pipelines
       - ETL
       - Managed
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/glue/
     properties:
       - url: https://docs.aws.amazon.com/glue/latest/webapi/Welcome.html
@@ -95,7 +95,7 @@ apis:
       - CDC
       - Connectors
       - Replication
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://debezium.io/
     properties:
       - url: https://debezium.io/documentation/
@@ -113,7 +113,7 @@ apis:
       - Bulk Transfer
       - Migration
       - Offline
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/datasync/
     properties:
       - url: https://docs.aws.amazon.com/datasync/latest/userguide/API_Reference.html
@@ -133,7 +133,7 @@ apis:
       - Datasets
       - Marketplace
       - Open Data
-    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
     humanURL: https://aws.amazon.com/data-exchange/
     properties:
       - url: https://aws.amazon.com/data-exchange/
