@@ -148,6 +148,12 @@ apis:
       buckets. They are an increasingly common acquisition channel
       for cloud-storage data lakes.
 common:
+  - type: TrustCenter
+    url: security/cloud-storage-and-data-acquisition-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/cloud-storage-and-data-acquisition-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/cloud-storage-and-data-acquisition-domain-security.yml
   - type: Topic
     url: https://apievangelist.com/topics/cloud-storage-and-data-acquisition/
   - type: API Evangelist
