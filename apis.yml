@@ -63,6 +63,10 @@ apis:
   - aid: cloud-storage-and-data-acquisition:streaming-ingest
     name: Streaming Ingest Surface
     tags:
+      - Pub-Sub
+      - Real-Time
+      - Streaming
+    tags_raw:
       - Pub/Sub
       - Real-time
       - Streaming
@@ -83,6 +87,10 @@ apis:
   - aid: cloud-storage-and-data-acquisition:managed-ingestion
     name: Managed Ingestion Pipelines
     tags:
+      - Data Pipeline
+      - ETL
+      - Managed
+    tags_raw:
       - Data Pipelines
       - ETL
       - Managed
