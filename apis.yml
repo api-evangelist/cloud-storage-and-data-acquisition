@@ -74,7 +74,7 @@ apis:
   - aid: cloud-storage-and-data-acquisition:streaming-ingest
     name: Streaming Ingest Surface
     tags:
-      - Pub/Sub
+      - Pub-Sub
       - Real-Time
       - Streaming
     tags_raw:
