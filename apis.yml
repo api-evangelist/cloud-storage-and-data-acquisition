@@ -122,6 +122,10 @@ apis:
   - aid: cloud-storage-and-data-acquisition:change-data-capture
     name: Change Data Capture Connectors
     tags:
+      - Change Data Capture
+      - Connectors
+      - Replication
+    tags_raw:
       - CDC
       - Connectors
       - Replication
