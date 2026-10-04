@@ -126,7 +126,7 @@ apis:
       - Connectors
       - Replication
     tags_raw:
-      - CDC
+      - Change Data Capture
       - Connectors
       - Replication
     image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
