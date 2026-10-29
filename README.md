@@ -1,4 +1,4 @@
-# Cloud Storage and Data Acquisition (cloud-storage-and-data-acquisition)
+# cloud-storage-and-data-acquisition
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,43 +64,22 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cloud Storage and Data Acquisition is a topic profile in the API Evangelist Network covering APIs and tooling for ingesting, moving, and persisting bulk and streaming data into cloud-resident storage. It groups object storage services, managed ingestion pipelines, change-data-capture connectors, transfer appliances, and data-marketplace APIs.
+## cloud-storage-and-data-acquisition on APIs.io
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/cloud-storage-and-data-acquisition/refs/heads/main/apis.yml)
+Everything profiled for cloud-storage-and-data-acquisition is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cloud-storage-and-data-acquisition/](https://apis.io/providers/cloud-storage-and-data-acquisition/)** — or go straight to one of the APIs or properties below.
 
-## Scope
+## API Evangelist rating
 
-- **Type:** Index
-- **x-type:** topic
+Not yet rated. See [apis.io/providers/cloud-storage-and-data-acquisition/](https://apis.io/providers/cloud-storage-and-data-acquisition/).
 
-## Tags
+## How this profile is made
 
-- Bulk Transfer, Change Data Capture, Cloud Storage, Data Acquisition, Data Ingestion, Data Lake, ETL, Object Storage, Pipelines, Streaming
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-## Timestamps
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for cloud-storage-and-data-acquisition: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-23
+## Open an issue
 
-## Sub-Topics
-
-- **Object Storage Surface** - S3, GCS, Azure Blob
-- **Streaming Ingest Surface** - Kinesis, Pub/Sub, Event Hubs
-- **Managed Ingestion Pipelines** - Glue, Dataflow, Data Factory
-- **Change Data Capture Connectors** - Debezium, DMS
-- **Bulk Transfer Services** - DataSync, Storage Transfer, Data Box
-- **Data Marketplaces** - AWS Data Exchange, Open Data Registry
-
-## Common Properties
-
-- [Topic Page](https://apievangelist.com/topics/cloud-storage-and-data-acquisition/)
-- [API Evangelist](https://apievangelist.com/)
-- [Network](https://network.apievangelist.com/)
-- [JSON-LD Context](json-ld/cloud-storage-and-data-acquisition-context.jsonld)
-- [Spectral Ruleset](rules/cloud-storage-and-data-acquisition-rules.yml)
-
-## Maintainers
-
-**FN:** Kin Lane
-
-**Email:** kinlane@gmail.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cloud-storage-and-data-acquisition/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
